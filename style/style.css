@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #e90fb2;
+    background-color: #000000;
 }
 
 h1{
@@ -13,7 +13,7 @@ h1{
 }
 
 main{
-    background-color:#ff00b3;
+    background-color:#acacac;
     padding: 20px;
     border-radius: 10px;
 
@@ -31,13 +31,13 @@ iframe{
 }
 
 nav{
-    background-color:#ff00d4;
+    background-color:#acacac;
     padding: 10px;
     text-align: center;
 }
 
 nav > a {
-    color:#1f2122;
+    color:#000000;
     padding: 10px;
     text-decoration: none;
     font-weight: bold;
@@ -52,7 +52,7 @@ nav > a:hover{
 
 
 header {
-    background-color:rgb(255, 0, 221);
+    background-color:rgb(0, 0, 0);
     min-height: 0.5px;
     text-align: center;
     padding-top: 40px;
@@ -63,7 +63,7 @@ header {
     padding: 0px 20px 30px;
     display: flex;
     flex-direction: column;
-    background-color: #ff009d;
+    background-color: #ffffff;
 }
     
 
@@ -75,8 +75,8 @@ header {
 
 .demoDiv {
     width: 30%;
-    border: 5px outset #ff00aa;
-    background-color: #ff00bf;
+    border: 5px outset #000000;
+    background-color: #000000;
     font-weight: 400;
     text-align: center;
 }
