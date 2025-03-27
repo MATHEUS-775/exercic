@@ -1,0 +1,57 @@
+/* 1 procedimento de responsividade: para fazer as margens sumirem.*/
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+/*cores sendo inseridas pelo nome da variavel*/
+body {
+    background-color: var(--cor5);
+}
+
+/*2 procedimento de responsividade: margens, bordas e definiçao de largura min e max de telas. 320px e 800px*/
+main {
+     background-color: white;
+     padding: 20px;
+     border-radius: 10px;
+
+     min-width: 320px;
+     max-width: 800px;
+     margin: auto;
+}
+
+/* 3º procedimento de responsividade: fazer as imagens ocuparem 100% do espaço determinado.*/
+    img {
+        width: 100%;
+    }
+    
+    iframe {
+        width: 100%;
+    }
+
+    header {
+        background-color: var(--cor5);
+        min-height: 0.5px;
+        text-align: center;
+        padding-top: 40px;
+    }
+#containerTotal {
+    padding: 0px 20px 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: orange;
+  }
+
+  .containerDivs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  } 
+
+  .demoDiv {
+    width: 30%;
+    border: 5px outset red;
+    background-color: yellow;
+    font-weight: 600;
+    text-align: center;
+  } 
